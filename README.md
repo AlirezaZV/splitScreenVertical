@@ -5,7 +5,7 @@ Vertical split screen or before/after React and Vite.js component.
 
 ## Description
 
-The `splitScreenVertical` component is designed for creating split-screen layouts in React applications. It can be used for comparing two different web pages, showing before and after content, or any other use case involving a vertical split screen. This component leverages React Router for navigation between different screens.
+The `splitScreenVertical` project is designed for creating split-screen layouts in React applications. It can be used for comparing two different web pages, showing before and after content, or any other use case involving a vertical split screen. This component leverages React Router for navigation between different screens.
 
 ## Installation
 

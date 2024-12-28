@@ -1,7 +1,7 @@
 # splitScreenVertical
+Vertical split screen or before/after React and Vite.js component.
 
 ![Demo](https://github.com/AlirezaZV/splitScreenVertical/blob/main/public/header.gif)
-Vertical split screen or before/after React and Vite.js component.
 
 ## Description
 

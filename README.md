@@ -23,7 +23,10 @@ To use this component in your project, follow these steps:
    ```sh
    npm install
    ```
-
+4. Run project:
+   ```sh
+   npm run dev
+   ```
 ## Usage
 
 Import and use the `splitScreenVertical` component in your React application. Below is an example of how to set it up:

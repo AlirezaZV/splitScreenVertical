@@ -1,0 +1,92 @@
+
+* {
+ overflow: hidden;
+}
+
+.before-after-container {
+  overflow: hidden;
+  cursor: pointer;
+  user-select: none;
+}
+
+.before-after-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.black-circle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 2000px;
+  height: 2000px;
+  background-color: black;
+  border-radius: 50%;
+  transform: translate(-50%, -50%) scale(0); /* Start at scale 0 */
+  z-index: 1000; /* Ensure it is above other elements */
+}
+
+.after-image {
+  z-index: 1; /* Behind the before image */
+  transition: transform 1s ease-in-out; /* Smooth zoom */
+}
+
+.before-image {
+  z-index: 3; /* Above the after image */
+  clip-path: inset(0 50% 0 0); /* Initial clipping at 50% */
+}
+
+
+@keyframes loading {
+  100% {
+    stroke-dasharray: 100;
+    transform: rotate(200deg);
+  }
+}
+
+.first-page {
+  height: 1920px;
+  width: auto;
+  background-color:'black'
+}
+
+
+.showcase {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+  padding: 0 20px;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 60px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+}
+
+.content {
+  z-index: 2;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 30px;
+  background: var(--primary-color);
+  color: #fff;
+  border-radius: 5px;
+  border: solid #fff 1px;
+  margin-top: 25px;
+  opacity: 0.7;
+}
+
+.btn:hover {
+  transform: scale(0.98);
+}

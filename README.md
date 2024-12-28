@@ -1,5 +1,6 @@
 # splitScreenVertical
 
+![Demo](path/to/your/gif.gif)
 Vertical split screen or before/after React and Vite.js component.
 
 ## Description

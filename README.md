@@ -1,5 +1,3 @@
-Based on the `App.jsx` file, here is a README file for the `splitScreenVertical` component:
-
 # splitScreenVertical
 
 Vertical split screen or before/after React and Vite.js component.
